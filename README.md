@@ -78,6 +78,7 @@ API docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 ### Frontend Setup
+For running the Frontend, open the New Terminal, and do the following:
 ```bash
 cd frontend
 npm install
