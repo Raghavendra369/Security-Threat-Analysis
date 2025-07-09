@@ -56,6 +56,7 @@ cd backend
 ```
 
 #### Data Ingestion
+I have plugged in the .csv dataset from the backend onto the ingestion.py.
 Ensure MongoDB is running locally (default: `mongodb://localhost:27017`). Then insert the dataset:
 ```bash
 python ingestion.py   # (A script that reads `cyber_threats.csv` and pushes to MongoDB)
