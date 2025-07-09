@@ -58,9 +58,9 @@ cd backend
 #### Data Ingestion
 Ensure MongoDB is running locally (default: `mongodb://localhost:27017`). Then insert the dataset:
 ```bash
-python ingest_data.py   # (A script that reads `cyber_threats.csv` and pushes to MongoDB)
+python ingestion.py   # (A script that reads `cyber_threats.csv` and pushes to MongoDB)
 ```
-> If you don’t have `ingest_data.py`, you can insert via a Jupyter notebook or simple pymongo script.
+> If you don’t have `ingestion.py`, you can insert via a Jupyter notebook or simple pymongo script.
 
 #### Model Training
 ```bash
